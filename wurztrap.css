@@ -1,1 +1,183 @@
 /* WARNING: CREA DIPENDENZA */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  position: relative;
+}
+
+.row{
+  width: 100%;
+}
+
+.row:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.t-white{
+  color: white;
+}
+
+[class^="col"]{
+  float: left;
+}
+
+/* Inizio selettori float */
+.col1{
+  width: calc(100% / 12);
+}
+
+.col2{
+  width: calc((100% / 12) * 2);
+}
+
+.col3{
+  width: calc((100% / 12) * 3);
+}
+
+.col4{
+  width: calc((100% / 12) * 4);
+}
+
+.col5{
+  width: calc((100% / 12) * 5);
+}
+
+.col6{
+  width: calc((100% / 12) * 6);
+}
+
+.col7{
+  width: calc((100% / 12) * 7);
+}
+
+.col8{
+  width: calc((100% / 12) * 8);
+}
+
+.col9{
+  width: calc((100% / 12) * 9);
+}
+
+.col10{
+  width: calc((100% / 12) * 10);
+}
+
+.col11{
+  width: calc((100% / 12) * 11);
+}
+
+.col12{
+  width: calc((100% / 12) * 12);
+}
+
+/* Inizio Col per margini sinistra */
+.col-1{
+  margin-left: calc(100% / 12);
+}
+
+.col-2{
+  margin-left: calc((100% / 12) * 2);
+}
+
+.col-3{
+  margin-left: calc((100% / 12) * 3);
+}
+
+.col-4{
+  margin-left: calc((100% / 12) * 4);
+}
+
+.col-5{
+  margin-left: calc((100% / 12) * 5);
+}
+
+.col-6{
+  margin-left: calc((100% / 12) * 6);
+}
+
+.col-7{
+  margin-left: calc((100% / 12) * 7);
+}
+
+.col-8{
+  margin-left: calc((100% / 12) * 8);
+}
+
+.col-9{
+  margin-left: calc((100% / 12) * 9);
+}
+
+.col-10{
+  margin-left: calc((100% / 12) * 10);
+}
+
+.col-11{
+  margin-left: calc((100% / 12) * 11);
+}
+
+.col-12{
+  margin-left: calc((100% / 12) * 12);
+}
+/* Fine Col per margini sinistra */
+
+/* Inizio selettori flex */
+.flexrow{
+  display: flex;
+}
+
+.flexcol1{
+  flex-basis: calc(100% / 12);
+}
+
+.flexcol2{
+  flex-basis: calc((100% / 12) * 2);
+}
+
+.flexcol3{
+  flex-basis: calc((100% / 12) * 3);
+}
+
+.flexcol4{
+  flex-basis: calc((100% / 12) * 4);
+}
+
+.flexcol5{
+  flex-basis: calc((100% / 12) * 5);
+}
+
+.flexcol6{
+  flex-basis: calc((100% / 12) * 6);
+}
+
+.flexcol7{
+  flex-basis: calc((100% / 12) * 7);
+}
+
+.flexcol8{
+  flex-basis: calc((100% / 12) * 8);
+}
+
+.flexcol9{
+  flex-basis: calc((100% / 12) * 9);
+}
+
+.flexcol10{
+  flex-basis: calc((100% / 12) * 10);
+}
+
+.flexcol11{
+  flex-basis: calc((100% / 12) * 11);
+}
+
+.flexcol12{
+  flex-basis: calc((100% / 12) * 12);
+}

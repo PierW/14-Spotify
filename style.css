@@ -1,0 +1,22 @@
+#player{
+  height: 80px;
+  width: 100%;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #282828;
+  border-top: 1px solid #000;
+}
+
+#navleft{
+  background-color: black;
+  height: calc(100vh - 80px);
+}
+
+#contentarea{
+  background-color: #141414;
+  height: calc(100vh - 80px);
+}
