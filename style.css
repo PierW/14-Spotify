@@ -1,10 +1,14 @@
+body{
+  background-color: #141414;
+}
+
 #player{
   height: 80px;
   width: 100%;
   max-width: 100%;
   justify-content: space-between;
   align-items: center;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background-color: #282828;
@@ -14,9 +18,12 @@
 #navleft{
   background-color: black;
   height: calc(100vh - 80px);
+  position: fixed;
+  left: 0;
+  top: 0;
 }
 
 #contentarea{
   background-color: #141414;
-  height: calc(100vh - 80px);
+  margin-bottom: 80px;
 }
