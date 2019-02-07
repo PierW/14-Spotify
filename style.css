@@ -25,6 +25,8 @@ body{
   left: 0;
   top: 0;
   padding: 20px;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 #contentarea{
@@ -32,28 +34,27 @@ body{
   margin-bottom: 80px;
 }
 
-#navleft > .logo{
+#navleft > .navup > .logo{
   display: flex;
   align-items: center;
-  height: 60px;
 }
 
-#navleft > .logo > .fab{
+#navleft > .navup> .logo > .fab{
   font-size: 45px;
 }
 
-#navleft > .logo > span{
+#navleft > .navup> .logo > span{
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   margin-left: 5px;
 }
 
-#navleft ul{
+#navleft ul, #menu ul{
   list-style-type: none;
 }
 
-#navleft > ul .fas{
+#navleft > .navup > ul .fas, .navdown > .far{
   font-size: 22px;
 }
 
@@ -69,6 +70,12 @@ body{
   font-size: 11px;
 }
 
-.prova{
-  height: 100px;
+.navdown {
+  width: 100%;
+  border-top: 1px solid grey;
+  text-align: center;
+}
+
+#menu{
+  text-transform: uppercase;
 }
