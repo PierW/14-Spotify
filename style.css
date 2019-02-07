@@ -58,7 +58,7 @@ body{
   font-size: 22px;
 }
 
-#navleft li{
+#navleft li, #menu li{
   cursor: pointer;
   transition-property: all;
   transition-duration: 0.5s;
@@ -78,4 +78,12 @@ body{
 
 #menu{
   text-transform: uppercase;
+}
+
+#menu > .flexrow{
+  height: 80px;
+  padding: 10px 15%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: space-between;
 }
