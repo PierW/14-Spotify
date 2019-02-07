@@ -87,3 +87,46 @@ body{
   flex-wrap: wrap;
   align-content: space-between;
 }
+
+.track{
+  margin: 0 25px;
+}
+
+.track h1{
+  padding: 0 5px;
+}
+
+.track .flexcol2{
+  padding: 0 5px;
+}
+
+main .flexrow{
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+main .flexrow div:nth-of-type(1n+7){
+  margin-top: 30px;
+}
+
+.track img{
+  width: 100%;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.playtrack:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.track span{
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#title-cat{
+  margin: 20px 0;
+  padding-top: 20px;
+}
