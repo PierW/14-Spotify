@@ -1,5 +1,8 @@
 body{
   background-color: #141414;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #b3b3b3;
 }
 
 #player{
@@ -21,9 +24,51 @@ body{
   position: fixed;
   left: 0;
   top: 0;
+  padding: 20px;
 }
 
 #contentarea{
   background-color: #141414;
   margin-bottom: 80px;
+}
+
+#navleft > .logo{
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+#navleft > .logo > .fab{
+  font-size: 45px;
+}
+
+#navleft > .logo > span{
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#navleft ul{
+  list-style-type: none;
+}
+
+#navleft > ul .fas{
+  font-size: 22px;
+}
+
+#navleft li{
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+
+.mostplayed span{
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+.prova{
+  height: 100px;
 }
