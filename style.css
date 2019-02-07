@@ -16,6 +16,7 @@ body{
   left: 0;
   background-color: #282828;
   border-top: 1px solid #000;
+  padding: 15px;
 }
 
 #navleft{
@@ -54,7 +55,7 @@ body{
   list-style-type: none;
 }
 
-#navleft > .navup > ul .fas, .navdown > .far{
+#navleft > .navup > ul .fas, .navdown > .far, .middle > .fas,.far{
   font-size: 22px;
 }
 
@@ -129,4 +130,48 @@ main .flexrow div:nth-of-type(1n+7){
 #title-cat{
   margin: 20px 0;
   padding-top: 20px;
+}
+
+.leftside, .currentrack, .middle, .rightside{
+  height: 100%;
+  align-items: center;
+}
+
+.currentrack{
+  width: 49px;
+  background-image: url("https://i.scdn.co/image/232e378bc0efb75d23df50c0bd7ee70d69e7bde3");
+  background-size: cover;
+}
+
+.leftside{
+  justify-content: space-between;
+}
+
+.middle, .rightside, .timeline{
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.middle >*, .rightside>*{
+  margin: 0 10px;
+}
+
+.timelineaudio{
+  height: 3px;
+  width: 80px;
+  border-radius: 20%;
+  background-color: #b3b3b3;
+}
+
+.timeline{
+  justify-content: center;
+  align-items: center;
+}
+
+.timelinebar {
+  height: 3px;
+  width: 50%;
+  border-radius: 20%;
+  background-color: #b3b3b3;
+  margin: 0 5px;
 }

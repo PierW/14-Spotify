@@ -25,6 +25,10 @@
   color: white;
 }
 
+.t-small{
+  font-size: 12px;
+}
+
 .howhite:hover{
   color: white;
 }
