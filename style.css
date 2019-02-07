@@ -55,7 +55,10 @@ body{
   list-style-type: none;
 }
 
-#navleft > .navup > ul .fas, .navdown > .far, .middle > .fas,.far{
+#navleft > .navup > ul .fas,
+.navdown > .far,
+.middle > .fas,
+.middle > .far{
   font-size: 22px;
 }
 
@@ -161,6 +164,11 @@ main .flexrow div:nth-of-type(1n+7){
   width: 80px;
   border-radius: 20%;
   background-color: #b3b3b3;
+}
+
+.timelineaudio:hover{
+  cursor: pointer;
+  background-color: green;
 }
 
 .timeline{
