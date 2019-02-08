@@ -204,3 +204,17 @@
 .flexcol12{
   flex-basis: calc((100% / 12) * 12);
 }
+
+/* Creo classe responsive per tablet */
+@media all and (max-width: 940px) {
+  .flextablet{
+    flex-basis: calc((100% / 12) * 3);
+  }
+}
+
+/* Creo classe responsive per cellulari */
+@media all and (max-width: 720px) {
+  .flexphone{
+    flex-basis: calc((100% / 12) * 6);
+  }
+}

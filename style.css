@@ -9,6 +9,7 @@ body{
   height: 80px;
   width: 100%;
   max-width: 100%;
+  min-width: 500px;
   justify-content: space-between;
   align-items: center;
   position: fixed;
@@ -38,6 +39,7 @@ body{
 #navleft > .navup > .logo{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 #navleft > .navup> .logo > .fab{
@@ -107,6 +109,7 @@ body{
 main .flexrow{
   flex-wrap: wrap;
   margin-bottom: 20px;
+  align-items: baseline;
 }
 
 main .flexrow div:nth-of-type(1n+7){
@@ -144,6 +147,7 @@ main .flexrow div:nth-of-type(1n+7){
   width: 49px;
   background-image: url("https://i.scdn.co/image/232e378bc0efb75d23df50c0bd7ee70d69e7bde3");
   background-size: cover;
+  flex-shrink: 0;
 }
 
 .leftside{
@@ -182,4 +186,27 @@ main .flexrow div:nth-of-type(1n+7){
   border-radius: 20%;
   background-color: #b3b3b3;
   margin: 0 5px;
+}
+
+@media all and (max-width: 940px) {
+  .logo > span,
+  .navdown >span,
+  .mostplayed,
+  .navup > ul span{
+    display: none;
+  }
+
+  .navup > ul{
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 720px) {
+  main .flexrow div:nth-of-type(-n+6){
+    margin-top: 30px;
+  }
+  
+  .titletrack span {
+    font-size: 10px;
+  }
 }
